@@ -1,12 +1,14 @@
-:root {
-    --background: url("https://media1.giphy.com/media/BTV1vUcOWht2U/giphy.gif");
-    --backgroundsize: cover;
-    --backgroundposition: center;
-}
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 
-html, body, #app-mount {
-    background-image: var(--background) !important;
-    background-size: var(--backgroundsize) !important;
-    background-position: var(--backgroundposition) !important;
-    background-repeat: no-repeat !important;
+:root {
+  --background-image: url("https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1920&q=80");
+  --background-blur: 0px;
+  --background-color: 0,0,0;
+  --background-shading: 0.6;
+  --background-shading-blur: 0px;
+  --popout-color: rgba(0,0,0,0.6);
+  --popout-blur: 0px;
+  --chatbox-color: rgba(0,0,0,0.4);
+  --text-shadow: 0 1px 0 rgba(0,0,0,0.7);
+  --font: gg sans, Noto Sans;
 }
