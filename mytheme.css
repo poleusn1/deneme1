@@ -1,14 +1,48 @@
-@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+@import url("https://discordstyles.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.theme.css");
 
 :root {
-  --background-image: url("https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1920&q=80");
-  --background-blur: 0px;
-  --background-color: 0,0,0;
-  --background-shading: 0.6;
-  --background-shading-blur: 0px;
-  --popout-color: rgba(0,0,0,0.6);
-  --popout-blur: 0px;
-  --chatbox-color: rgba(0,0,0,0.4);
-  --text-shadow: 0 1px 0 rgba(0,0,0,0.7);
-  --font: gg sans, Noto Sans;
+    --transparencycolor: 0, 0, 0;
+    --transparencyalpha: 0.15;
+    --bordercolor: 0, 0, 0;
+    --messagetransparency: 0.5;
+    --guildchanneltransparency: 0.15;
+    --chatinputtransparency: 0.0;
+    --memberlisttransparency: 0.0;
+
+    --accentcolor: 190, 78, 180;
+    --settingsicons: 1;
+    --font: "gg sans", "Noto Sans";
+    --textshadow: transparent;
+
+    --background: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdm5vM2xvNWs1eW9iMGU4Mmx3aTNjdDUwZmltcjNncTR5eXA4dXljaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BTV1vUcOWht2U/giphy.gif");
+    --backgroundposition: center;
+    --backgroundsize: contain;
+    --backgroundblur: 0;
+
+    --popout: var(--background);
+    --popoutposition: var(--backgroundposition);
+    --popoutsize: var(--backgroundsize);
+    --popoutblur: var(--backgroundblur);
+
+    --backdrop: rgba(0, 0, 0, 0.85);
+    --backdropposition: center;
+    --backdropsize: contain;
+    --backdropblur: 0;
+
+    --textbrightest: 255, 255, 255;
+    --textbrighter: 222, 222, 222;
+    --textbright: 200, 200, 200;
+    --textdark: 160, 160, 160;
+    --textdarker: 125, 125, 125;
+    --textdarkest: 90, 90, 90;
+
+    --version1_0_5: none;
+}
+
+html, body, #app-mount {
+    image-rendering: -webkit-optimize-contrast !important;
+    background-repeat: no-repeat !important;
+    background-size: var(--backgroundsize) !important;
+    background-position: var(--backgroundposition) !important;
+    background-image: var(--background) !important;
 }
